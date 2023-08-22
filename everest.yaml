@@ -1,0 +1,6 @@
+- Name: DoubleLanguages
+  Version: 0.3.0
+  DLL: bin/DoubleLanguages.dll
+  Dependencies:
+    - Name: Everest
+      Version: 1.3471.0
