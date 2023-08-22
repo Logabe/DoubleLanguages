@@ -12,3 +12,4 @@ Running this file will package a build into a .ZIP file for distribution.
 - Add translation to more entities.
 - Translate each line individually rather than the whole cutscene.
 - Upload to GameBanana
+- Organise the code better haha
