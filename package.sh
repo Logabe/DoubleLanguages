@@ -1,1 +1,1 @@
-zip DoubleLanguages.zip everest.yaml bin/DoubleLanguages.dll
+zip DoubleLanguages.zip everest.yaml bin/DoubleLanguages.dll Dialog/*
