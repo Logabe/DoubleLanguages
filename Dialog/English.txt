@@ -1,0 +1,2 @@
+modoptions_doublelanguages_title= Double Languages
+modoptions_secondlanguage_description= The technical ID of the language you want to use.

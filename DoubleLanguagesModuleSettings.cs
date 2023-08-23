@@ -7,6 +7,10 @@ namespace Celeste.Mod.DoubleLanguages {
     public class DoubleLanguagesModuleSettings : EverestModuleSettings {
         
         public bool Enabled { get; set; } = false;
+        
+        [SettingSubText("modoptions_secondlanguage_description")]  
+        [SettingNeedsRelaunch]
+        [SettingInGame(false)]
         public string SecondLanguage { get; set; } = "japanese";
     }
 }
