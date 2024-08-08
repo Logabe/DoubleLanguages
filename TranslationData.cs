@@ -8,7 +8,7 @@ namespace Celeste.Mod.DoubleLanguages
 
         public TranslationData(string val): base(false, false )
         {
-            translatedString = Dialog.Clean(val, DoubleLanguages.Language);
+            translatedString = DoubleLanguages.Translate(val);
         }
         public TranslationData(bool active, bool visible) : base(active, visible) { }
     }

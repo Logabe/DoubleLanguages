@@ -45,5 +45,10 @@ namespace Celeste.Mod.DoubleLanguages {
             Language = Dialog.Languages[Settings.SecondLanguage];
             Fonts.Load(Language.FontFace);
         }
+
+        public static string Translate(string id)
+        {
+            return Dialog.Clean(id, Language);
+        }
     }
 }
